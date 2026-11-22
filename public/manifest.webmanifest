@@ -1,0 +1,12 @@
+{
+  "name": "FRESHLOOP",
+  "short_name": "FRESHLOOP",
+  "description": "Know what food you have at home and use it before it expires.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f5ef",
+  "theme_color": "#2f6b4f",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

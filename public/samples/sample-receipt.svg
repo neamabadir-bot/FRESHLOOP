@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="900" viewBox="0 0 700 900">
+  <!-- Demo receipt for testing FRESHLOOP's receipt scanning. Open it on a screen and photograph it,
+       or choose this file directly in the "Choose image" picker. -->
+  <rect width="700" height="900" fill="#ffffff"/>
+  <g fill="#111111" font-family="'Courier New', Courier, monospace" font-size="26">
+    <text x="350" y="70" font-family="Arial, sans-serif" font-size="34" font-weight="bold" text-anchor="middle">FRESH MARKET</text>
+    <text x="50" y="140">12 Herzl St, Tel Aviv</text>
+    <text x="50" y="184">Date: 21/11/2026 18:42</text>
+    <text x="50" y="272">Milk 3% 1L                 6.90</text>
+    <text x="50" y="316">Eggs L 12                 14.90</text>
+    <text x="50" y="360">Cottage cheese 5%          5.40</text>
+    <text x="50" y="404">Bread whole wheat          8.90</text>
+    <text x="50" y="448">Tomatoes 1.25 kg           8.70</text>
+    <text x="50" y="492">Yogurt</text>
+    <text x="50" y="536">  2 x 4.90                 9.80</text>
+    <text x="50" y="580">Dish soap                 11.90</text>
+    <text x="50" y="668">TOTAL                     66.50</text>
+    <text x="50" y="712">VISA                      66.50</text>
+    <text x="50" y="756">Thank you!</text>
+  </g>
+</svg>
