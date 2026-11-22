@@ -6,7 +6,9 @@ import { dirname, join } from 'node:path';
 import { openDb } from './db.js';
 import { createApp } from './app.js';
 
-const PORT = Number(process.env.PORT) || 3001;
+// A --port=NNNN argument (used by `npm run dev`) wins over the PORT environment variable.
+const portArg = process.argv.find((a) => a.startsWith('--port='));
+const PORT = Number(portArg?.split('=')[1]) || Number(process.env.PORT) || 3001;
 const db = openDb();
 const app = createApp(db);
 

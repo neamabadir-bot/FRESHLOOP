@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "concurrently -k -n server,client -c green,cyan \"npm:dev:server\" \"npm:dev:client\"",
-    "dev:server": "node --watch --env-file-if-exists=.env server/index.js",
+    "dev:server": "node --watch --env-file-if-exists=.env server/index.js --port=3001",
     "dev:client": "vite --host",
     "build": "vite build",
     "start": "node --env-file-if-exists=.env server/index.js",
